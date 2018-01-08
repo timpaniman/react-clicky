@@ -1,0 +1,20 @@
+{
+    "name": "react-clicky",
+    "homepage": "https://timpaniman.github.io/react-clicky",
+    "version": "0.2.0",
+    "private": true,
+    "dependencies": {
+        "gh-pages": "^1.1.0",
+        "react": "^16.2.0",
+        "react-bootstrap": "^0.32.0",
+        "react-dom": "^16.2.0",
+        "react-scripts": "^0.2.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
